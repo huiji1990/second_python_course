@@ -31,6 +31,9 @@
     <Compile Include="bs4Demo\wikitest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="sqlserverDemo\mssqlTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wordcloud\wordcloud.py">
       <SubType>Code</SubType>
     </Compile>
@@ -63,12 +66,16 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bs4Demo\" />
     <Folder Include="bs4Demo\urllibtest\" />
     <Folder Include="D:\pycourse\second_python_course\PythonDemo\PythonDemo\包和模块\a\" />
     <Folder Include="D:\pycourse\second_python_course\PythonDemo\PythonDemo\包和模块\b\" />
     <Folder Include="D:\pycourse\second_python_course\PythonDemo\PythonDemo\bs4Demo\" />
+    <Folder Include="sqlserverDemo\" />
     <Folder Include="wordcloud\" />
     <Folder Include="包和模块\" />
+    <Folder Include="包和模块\a\" />
+    <Folder Include="包和模块\b\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
